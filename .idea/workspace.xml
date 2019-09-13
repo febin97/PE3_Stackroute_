@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c86ac771-1ee5-4c7c-b028-9db540eae5ac" name="Default Changelist" comment="" />
+    <list default="true" id="c86ac771-1ee5-4c7c-b028-9db540eae5ac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PE3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/ChessBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/ChessBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/ConsecutiveNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/ConsecutiveNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/Date.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/FileUpper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/FileUpper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/FrequencyWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/FrequencyWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/MainException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/MainException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/NegativeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/NegativeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/SearchFileExtension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/SearchFileExtension.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/StudentsMarks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/StudentsMarks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/Summatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/Summatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/Vowel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/Vowel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/ConsecutiveNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/ConsecutiveNumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/FileUpperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/FileUpperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/FrequencyWordsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/FrequencyWordsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/SearchFileExtensionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/SearchFileExtensionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/StudentMarksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/StudentMarksTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/VowelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/VowelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/StudentsMarks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/StudentsMarks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stackroute/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stackroute/StudentMarksTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stackroute/StudentMarksTest.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +40,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -24,7 +52,7 @@
   </component>
   <component name="ProjectId" id="1QgHaQo2wf57CuY6rSkQ45x3Hmm" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../java/PE2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DataMungerStep3_Boilerplate" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -38,8 +66,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentMarksTest.teststudentFailure">
-    <configuration name="StudentMarksTest.testsetstudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.VowelTest">
+    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PE3" />
       <extension name="coverage">
         <pattern>
@@ -48,14 +76,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.stackroute" />
-      <option name="MAIN_CLASS_NAME" value="com.stackroute.StudentMarksTest" />
-      <option name="METHOD_NAME" value="testsetstudent" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.MainTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentMarksTest.teststudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NegativeExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PE3" />
       <extension name="coverage">
         <pattern>
@@ -64,14 +91,28 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.stackroute" />
-      <option name="MAIN_CLASS_NAME" value="com.stackroute.StudentMarksTest" />
-      <option name="METHOD_NAME" value="teststudent" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.NegativeExceptionTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentMarksTest.teststudentFailure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchFileExtensionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PE3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stackroute.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stackroute" />
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.SearchFileExtensionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentMarksTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PE3" />
       <extension name="coverage">
         <pattern>
@@ -81,17 +122,33 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.stackroute" />
       <option name="MAIN_CLASS_NAME" value="com.stackroute.StudentMarksTest" />
-      <option name="METHOD_NAME" value="teststudentFailure" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VowelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PE3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stackroute.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stackroute" />
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.VowelTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StudentMarksTest.teststudentFailure" />
-        <item itemvalue="JUnit.StudentMarksTest.teststudent" />
-        <item itemvalue="JUnit.StudentMarksTest.testsetstudent" />
+        <item itemvalue="JUnit.VowelTest" />
+        <item itemvalue="JUnit.StudentMarksTest" />
+        <item itemvalue="JUnit.SearchFileExtensionTest" />
+        <item itemvalue="JUnit.NegativeExceptionTest" />
+        <item itemvalue="JUnit.MainTest" />
       </list>
     </recent_temporary>
   </component>
@@ -107,5 +164,18 @@
       <updated>1568185381438</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

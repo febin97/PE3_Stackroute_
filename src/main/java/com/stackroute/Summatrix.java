@@ -12,9 +12,17 @@ public class Summatrix {
         this.row=row;
     }
 
-    public Array[][] calc(int first[][], int second[][])
+    public int[][] calc(int first[][], int second[][])
     {
-        return null;
+        if(row==0 && col ==0)
+            return null;
+        int[][] arr = new int[row][col];
+        for(int i=0;i<row;i++){
+            for(int j=0;j<col;j++){
+                arr[i][j] = first[i][j]+second[i][j];
+            }
+        }
+        return arr;
     }
 
 

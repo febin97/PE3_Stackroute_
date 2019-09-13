@@ -4,6 +4,8 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import java.io.IOException;
+
 import static org.junit.Assert.*;
 
 public class FileUpperTest {
@@ -25,22 +27,16 @@ public class FileUpperTest {
     }
 
     @Test
-    public void FileUpperTest()
-    {
+    public void FileUpperTest() throws IOException {
         String filecontent="Welcome to StackRoute"; //create a file and write this content in your file
         int count=21;
         String res=filecontent.toUpperCase()+" "+count;
         assertEquals(res,obj.show());
 
-        String newfilecontent="Welcome to StackRoute Bangalore"; //create new file and write this in your file
-        int newcount=31;
-        String newres=newfilecontent.toUpperCase()+" "+newcount;
-        assertEquals(newres,obj.show());
     }
 
     @Test
-    public void FileUpperTestFailure()
-    {
+    public void FileUpperTestFailure() throws IOException {
         String filecontent="Welcome to StackRoute"; //create a file and write this in your file
         int count=31;
         String res=filecontent.toUpperCase()+" "+count;

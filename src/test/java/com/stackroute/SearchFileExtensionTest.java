@@ -4,6 +4,8 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import java.io.IOException;
+
 import static org.junit.Assert.*;
 
 public class SearchFileExtensionTest {
@@ -25,10 +27,13 @@ public class SearchFileExtensionTest {
     }
 
     @Test
-    public void FileExtensionTest()
-    {
+    public void FileExtensionTest() throws IOException {
 
-        String filecontent_1="Welcome to StackRoute"; // check folder in the com.stackroute there is one folder and it contains file there
+        String filecontent_1="WELCOME TO STACKROUTE\n" +
+                "i am a man \n" +
+                "i like to sleep \n" +
+                "i have a home \n" +
+                "Welcome to StackRoute"; // check folder in the com.stackroute there is one folder and it contains file there
         assertEquals(filecontent_1,obj.getcontent(".txt"));
 
         String filecontent_2 ="package com.stackroute.Folder;\n" +
@@ -42,8 +47,7 @@ public class SearchFileExtensionTest {
         assertEquals(filecontent_2,obj.getcontent(".java"));
     }
     @Test
-    public void FileExtensionTestFailure()
-    {
+    public void FileExtensionTestFailure() throws IOException {
         String filecontent_1="Welcome to StackRoutee"; // check folder in the com.stackroute there is one folder and it contains file there
         assertNotEquals(filecontent_1,obj.getcontent(".txt"));
 

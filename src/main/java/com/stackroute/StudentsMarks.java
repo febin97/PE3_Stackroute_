@@ -4,13 +4,25 @@ public class StudentsMarks {
 
     public int no_of_students;
     public int grade[];
-    public void set_no(int n)
-    {
-        this.no_of_students=n;
-        this.grade=new int[n];
 
+    public int getNo_of_students() {
+        return no_of_students;
     }
-    public String set_grade(int a[])
+
+    public void setNo_of_students(int no_of_students) {
+        this.no_of_students = no_of_students;
+        this.grade=new int[no_of_students];
+    }
+
+    public int[] getGrade() {
+        return grade;
+    }
+
+    public void setGrade(int[] grade) {
+        this.grade = grade;
+    }
+
+    public String checkGrade(int a[])
     {
          for(int i=0;i<this.no_of_students;i++)
          {

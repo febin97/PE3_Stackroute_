@@ -28,10 +28,10 @@ public class StudentMarksTest {
     public void teststudent() {
         int no_of_student = 5;
         int a[] = {11, 24, 65, 40,80};
-        objstudentmarks.set_no(no_of_student);
+        objstudentmarks.setNo_of_students(no_of_student);
         assertEquals(
                 "File name extraction failed. File name can be found after a space after from clause. Note: CSV file can contain a field that contains from as a part of the column name. For eg: from_date,from_hrs etc",
-                "Success",  objstudentmarks.set_grade(a));
+                "Success",  objstudentmarks.checkGrade(a));
     }
 
 
@@ -39,10 +39,10 @@ public class StudentMarksTest {
     public void teststudentFailure() {
         int no_of_student = 4;
         int a[] = {1, 2, -5, 4};
-        objstudentmarks.set_no(no_of_student);
+        objstudentmarks.setNo_of_students(no_of_student);
         assertEquals(
                 "File name extraction failed. File name can be found after a space after from clause. Note: CSV file can contain a field that contains from as a part of the column name. For eg: from_date,from_hrs etc",
-                "Error Message",  objstudentmarks.set_grade(a));
+                "Error Message",  objstudentmarks.checkGrade(a));
         }
 
     }

@@ -4,6 +4,7 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -29,8 +30,7 @@ public class FrequencyWordsTest {
     }
 
     @Test
-    public void FileFrequencyTest()
-    {
+    public void FileFrequencyTest() throws IOException {
         //create and write this in your file filedemo.txt make sure you provide a valid path of the directory while creating file path object
 
         //i am a man ,
@@ -39,46 +39,24 @@ public class FrequencyWordsTest {
 
         List<String> str=new ArrayList<String>(
                 Arrays.asList(
-                        "i-3 times,",
-                        "am-1,",
-                        "like-1,",
-                        "have-1,",
-                        "a-2,",
+                        "a-2",
+                        "am-1",
+                        "have-1",
+                        "home-1",
+                        "i-3",
+                        "like-1",
                         "man-1",
-                        "to-1",
                         "sleep-1",
-                        "home-1"
-                )
+                        "to-1"
+                )                                                   // return Sorted List
         );
         assertEquals(str,obj.frequencycalculate());
-
-        //write this in your file  filedemo2.txt
-
-        //i am a boy ,
-        //i like to sleep ,
-        //i have a home.
-
-        List<String> str2=new ArrayList<String>(
-                Arrays.asList(
-                        "i-3 times,",
-                        "am-1,",
-                        "like-1,",
-                        "have-1,",
-                        "a-2,",
-                        "boy-1",
-                        "to-1",
-                        "sleep-1",
-                        "home-1"
-                )
-        );
-        assertEquals(str2,obj.frequencycalculate());
 
 
     }
 
     @Test
-    public void FileFrequencyTestFailure()
-    {
+    public void FileFrequencyTestFailure() throws IOException {
 
         //write this in your file filedemo.txt
 

@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class ConsecutiveNumberTest {
+public class    ConsecutiveNumberTest {
     private static ConsecutiveNumber obj;
 
     @BeforeClass

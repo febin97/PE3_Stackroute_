@@ -31,10 +31,10 @@ public class VowelTest {
     @Test
     public void vowel() {
         List<String> result = new ArrayList<String>(
-                Arrays.asList("Place Name without Vowels:0 ind",
-        "Place Name without Vowels:1 ntd Stts",
+                Arrays.asList("Place Name without Vowels:0 Ind",
+        "Place Name without Vowels:1 Untd Stts",
         "Place Name without Vowels:2 Grmny",
-        "Place Name without Vowels:3 gypt",
+        "Place Name without Vowels:3 Egypt",
         "Place Name without Vowels:4 czchslvk"));
 
         List<String> resultwrong = new ArrayList<String>(
